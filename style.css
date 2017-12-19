@@ -78,7 +78,7 @@ nav li a:hover {
 
 .parallax {
     /* The image used */
-    background-image: url('../photo/nirvana.jpg');
+    background-image: url('photo/nirvana.jpg');
 
     height: 40%;
     width: 100%;
