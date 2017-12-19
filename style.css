@@ -1,0 +1,182 @@
+html {
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    color: 	#FFD700;
+}
+
+#logo {
+    animation: mymove 9999999s infinite;
+}
+
+#logo a img {
+    width: 70px;
+    height: 70px;
+}
+
+#home h2 {
+    color: 	#DC143C;
+    font-family: 'Bungee Shade', cursive;
+}
+
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {
+        -ms-transform: rotate(99999999deg); /* IE 9 */
+        
+        -webkit-transform: rotate(99999999deg); /* Chrome, Safari, Opera */
+        
+        transform: rotate(999999999deg);
+    }
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    padding: 10px 30px 10px 10px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav {
+    padding-right: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav a {
+	margin-left: 40px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 35px;
+	text-shadow: 0 1px 0 white;
+	color: 	#FFD700;
+	font-family: 'Titan One', cursive;
+}
+
+nav li a:hover {
+	color: 	#DC143C;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../photo/nirvana.jpg');
+
+    height: 40%;
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    background-color: black;
+    color: 	#FFD700;
+    text-align: center;
+    font-size: 30px;
+}
+
+.flex-space-around {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h3:hover {
+	color: 	#DC143C;
+}
+
+h2:hover {
+	color: 	#DC143C;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+section p {
+    text-align: left;
+    font-size: 30px;
+}
+
+.section-img {
+    width: 25%;
+	height: 450px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer div a img {
+    width: 70px;
+    height: 70px;
+}
+
+footer div:last-child {
+    padding-left: 50px;
+}
+
+#contactTittle {
+    padding-left: 30px;
+}
+
+
+form {
+    padding: 0px 0px 10px 10px
+}
+
+form input[type="textarea"] {
+    width: 300px;
+    height: 130px;
+}
